@@ -27,7 +27,7 @@ jobs:
           gradle-version: '8.13'
 
       - name: Extract Android project
-        run: unzip -o Dashing-Volume-Slider-Android-Studio-Project.zip
+        run: unzip -o 2.DashingVolumeSlider-Project.zip
 
       - name: Build APK
         working-directory: DashingVolumeSlider
